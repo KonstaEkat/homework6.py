@@ -1,0 +1,18 @@
+my_dict = {'мама': 1976, 'папа': 1967, 'муж': 1986, 'дочка': 2022}
+print(my_dict)
+print(my_dict.get('дочка'))
+my_dict['моё день рождение'] = 1995
+my_dict.update({'Брат мужа': 1991, 'Мама мужа': 1962})
+print(my_dict)
+print(my_dict.items())
+del my_dict['мама']
+del my_dict['папа']
+print(my_dict)
+#Множества
+my_set = {1,2,1,2,3,3,4,7,7,8,9,9,8,'привет','привет'}
+print(my_set)
+print(my_set.add('лето'))
+print(my_set.add('солнце'))
+print(my_set)
+print(my_set.remove(4))
+print(my_set)
